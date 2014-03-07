@@ -23,26 +23,14 @@
 		<![endif]-->
 		<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_url'); ?>/custom.css" />
   		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
-  		<script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/library/js/jquery-1.11.0.min.js"></script>
-  		<script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/library/js/jquery.gradienttext-0.1.min.js"></script>
-		
+  		
 		
 
 		<!-- wordpress head functions -->
 		<?php wp_head(); ?>
 		<!-- end of wordpress head -->
 			
-		<script>
-		$(document).ready(function(){
-		    $('h1').gradienttext({
-		        colors: [
-		            '#fd9135',
-		            '#f92739'
-		        ],
-        style: 'horizontal'
-    });
-});
-		</script>	
+		
 	</head>
 	
 	<body <?php body_class(); ?>>

@@ -1,0 +1,20 @@
+#main .alert-info{
+	display: none;
+}
+#main article{
+	border-bottom: 0px!important;
+}
+
+h1.page-title,h1.h2 {
+font-size: 30px;
+color: #f92740;
+}
+
+h3.h2 a{
+color: #fd9135;
+}
+
+pre{
+	background-color: transparent;
+	border:none;
+}
