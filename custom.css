@@ -1,6 +1,21 @@
-a {
+
+a, .widgettitle{
 color: #f92740!important;
 text-decoration: none;
+}
+.navbar-header a {
+color: #f92740!important;
+text-decoration: none;
+}
+
+.container a{
+	color: black!important;
+	text-decoration: none;
+
+}
+.widgettitle ul li {
+	list-style-type: none;
+
 }
 
 #main .alert-info{
@@ -23,3 +38,30 @@ pre{
 	background-color: transparent;
 	border:none;
 }
+
+.navbar-default {
+background-color: #f8f8f8;
+background: #fc2231; /* Old browsers */
+background: -moz-linear-gradient(45deg,  #fc2231 0%, #ff9124 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#fc2231), color-stop(100%,#ff9124)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(45deg,  #fc2231 0%,#ff9124 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(45deg,  #fc2231 0%,#ff9124 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(45deg,  #fc2231 0%,#ff9124 100%); /* IE10+ */
+background: linear-gradient(45deg,  #fc2231 0%,#ff9124 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc2231', endColorstr='#ff9124',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+border-color: #e7e7e7;
+}
+
+
+
+.pull-right {
+float: right !important;
+display: none;
+}
+
+.widget{
+	margin-top: 3em;
+}
+
+
+
