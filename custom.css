@@ -63,5 +63,25 @@ display: none;
 	margin-top: 3em;
 }
 
+.navbar a{
+	font-weight: bold;
+}
+.navbar-nav{
+	margin-top: 0.1em!important;
+}
 
+ol.commentlist, ol.commentlist ul.children {
+list-style-type: none;
+padding-left: 0;
+display: none;
+}
+#comments {
+line-height: 24px;
+margin-bottom: 18px;
+display: none;
+}
+.col-sm-4 {
+width: 33.33333333333333%;
+margin-top: 5.4em;
+}
 
