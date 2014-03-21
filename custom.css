@@ -1,4 +1,10 @@
-
+body{
+	background-image: url(http://dramalab.unibz.it/wp-content/uploads/2014/03/drama-back.gif);
+	padding-top: 48px!important;
+}
+#content{
+	background-color: white;
+}
 a, .widgettitle{
 color: #f92740!important;
 text-decoration: none;
